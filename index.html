@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Balloons Animation -->
+    <div class="balloons-container" id="balloonsContainer"></div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Wishes Overlay -->
+    <div class="wishes-overlay" id="wishesOverlay">
+        <div class="wishes-content">
+            <div class="wishes-close" id="wishesClose">×</div>
+            <h2 class="wishes-title">🎂 Happy Birthday! 🎂</h2>
+            <div class="wishes-bubbles">
+                <div class="wish-bubble-large">💖</div>
+                <div class="wish-bubble-large">💕</div>
+                <div class="wish-bubble-large">💗</div>
+                <div class="wish-bubble-large">💖</div>
+                <div class="wish-bubble-large">💕</div>
+                <div class="wish-bubble-large">💗</div>
+            </div>
+            <p class="wishes-message">
+                May all your dreams come true!<br>
+                Wishing you endless happiness!<br>
+                Lots of love on your special day!
+            </p>
+            <div class="wishes-hearts">
+                <span>❤️</span><span>💕</span><span>❤️</span><span>💕</span><span>❤️</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-hearts">
+                <span class="header-heart">💕</span>
+            </div>
+            <h1 class="title">Happy Birthday</h1>
+            <h2 class="subtitle">My Beautiful Frinde</h2>
+            <div class="header-hearts">
+                <span class="header-heart">💕</span>
+            </div>
+            <p class="header-message">Click on the gifts below to reveal your surprises!</p>
+        </header>
+
+        <!-- Progress Indicator -->
+        <div class="progress-container">
+            <p class="progress-label">Cards Opened</p>
+            <div class="progress-hearts" id="progressHearts">
+                <span class="heart-filled">❤️</span>
+                <span class="heart-filled">❤️</span>
+                <span class="heart-filled">❤️</span>
+                <span class="heart-filled">❤️</span>
+            </div>
+        </div>
+
+        <!-- Gift Cards Grid -->
+        <section class="gifts-section">
+            <div class="gifts-grid">
+                <!-- Gift Card 1 -->
+                <div class="gift-card" data-card="1">
+                    <div class="gift-front">
+                        <div class="gift-shine"></div>
+                        <span class="gift-emoji">🎁</span>
+                        <p class="gift-label">Click Me!</p>
+                    </div>
+                    <div class="gift-back" id="card1">
+                        <div class="revealed-content">
+                            <div class="reveal-icon">💖</div>
+                            <h3 class="reveal-title">You're Amazing!</h3>
+                            <p class="reveal-message">
+                                On your special day, I want you to know that you are the most 
+                                incredible person I've ever met. Your kindness, your smile, 
+                                your heart - everything about you is perfect to me.
+                            </p>
+                            <div class="reveal-hearts">
+                                <span>❤️</span><span>💕</span><span>❤️</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gift Card 2 -->
+                <div class="gift-card" data-card="2">
+                    <div class="gift-front">
+                        <div class="gift-shine"></div>
+                        <span class="gift-emoji">🎀</span>
+                        <p class="gift-label">Click Me!</p>
+                    </div>
+                    <div class="gift-back" id="card2">
+                        <div class="revealed-content">
+                            <div class="reveal-icon">🌟</div>
+                            <h3 class="reveal-title">My Best Friend</h3>
+                            <p class="reveal-message">
+                                You are not just my love, you are my best friend. 
+                                With you, I've found my soulmate, my confidant, 
+                                and my greatest adventure. Life with you is a dream come true.
+                            </p>
+                            <div class="reveal-hearts">
+                                <span>💗</span><span>💖</span><span>💗</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gift Card 3 -->
+                <div class="gift-card" data-card="3">
+                    <div class="gift-front">
+                        <div class="gift-shine"></div>
+                        <span class="gift-emoji">🎈</span>
+                        <p class="gift-label">Click Me!</p>
+                    </div>
+                    <div class="gift-back" id="card3">
+                        <div class="revealed-content">
+                            <div class="reveal-icon">💫</div>
+                            <h3 class="reveal-title">Forever Together</h3>
+                            <p class="reveal-message">
+                                Every moment spent with you is a treasure. 
+                                I promise to stand by your side through all of life's adventures. 
+                                You are my today, my tomorrow, and all my days to come.
+                            </p>
+                            <div class="reveal-hearts">
+                                <span>💓</span><span>💕</span><span>💓</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gift Card 4 -->
+                <div class="gift-card" data-card="4">
+                    <div class="gift-front">
+                        <div class="gift-shine"></div>
+                        <span class="gift-emoji">🌹</span>
+                        <p class="gift-label">Click Me!</p>
+                    </div>
+                    <div class="gift-back" id="card4">
+                        <div class="revealed-content">
+                            <div class="reveal-icon">💝</div>
+                            <h3 class="reveal-title">My Friend </h3>
+                            <p class="reveal-message">
+                                From the bottom of my heart, I love you more than words can express. 
+                                You make my world brighter, my heart fuller, and my life complete. 
+                                Happy Birthday, my everything!
+                            </p>
+                            <div class="reveal-hearts">
+                                <span>❤️</span><span>💖</span><span>❤️</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Surprise Reveal (appears after all cards are opened) -->
+        <section class="final-surprise" id="finalSurprise">
+            <div class="final-content">
+                <div class="final-fireworks" id="fireworks"></div>
+                <div class="final-hearts">
+                    <span>💕</span><span>💖</span><span>💕</span>
+                </div>
+                <h2 class="final-title">🎉 The Best is Yet to Come! 🎉</h2>
+                <div class="final-message">
+                    <p class="message-line">My Dearest,</p>
+                    <p class="message-line">
+                        Every card you opened is a fraction of how much you mean to me. 
+                        You are the love of my life, my inspiration, and my greatest blessing.
+                    </p>
+                    <p class="message-line">
+                        On this special day, I wish you all the happiness in the world. 
+                        May your birthday be as beautiful and wonderful as you are.
+                    </p>
+                    <p class="message-line">Here's to many more years of love, laughter, and beautiful memories together!</p>
+                </div>
+                <div class="final-signature">
+                    <p>Forever Yours,</p>
+                    <p class="signature">With All My Love ❤️</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-hearts">
+                <span>❤️</span><span>💕</span><span>❤️</span>
+            </div>
+            <p>Made with ❤️ Just For You</p>
+            <p class="footer-date">2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
